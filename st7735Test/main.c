@@ -13,10 +13,10 @@ int main()
     GFX_createFramebuf();
     while (true)
     {
-        GFX_ClearScreen();
+        GFX_clearScreen();
         GFX_setCursor(0, 0);
         GFX_printf("Hello GFX!\n%d", c++);
-        GFX_Flush();
+        GFX_flush();
         sleep_ms(500);
     }
 }

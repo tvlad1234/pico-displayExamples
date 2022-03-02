@@ -21,7 +21,7 @@
             ]
         },
         {
-            "name": "CMSIS-DAP",
+            "name": "pico-debug",
             "device": "RP2040",
             "gdbPath": "arm-none-eabi-gdb",
             "cwd": "${workspaceRoot}",
@@ -32,7 +32,6 @@
             "configFiles": [
                 "interface/cmsis-dap.cfg",
                 "target/rp2040-core0.cfg",
-                "targets rp2b0.core0"
             ],
             "openOCDLaunchCommands": [
                 "transport select swd",
