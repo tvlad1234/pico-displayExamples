@@ -1,2 +1,2 @@
-# pico-st7735Example
-ST7735 example for Pi Pico, using pico-sdk
+# pico-displayExamples
+Examples for [pico-displayDrivs](https://github.com/tvlad1234/pico-displayDrivs)
