@@ -18,6 +18,8 @@ add_subdirectory(pico-displayDrivs)
 
 add_subdirectory(st7735Test)
 add_subdirectory(st7789Test)
+add_subdirectory(ili9341Test)
+
 
 add_compile_options(-Wall
         -Wno-format          # int != int32_t as far as the compiler is concerned because gcc has int32_t as long int
