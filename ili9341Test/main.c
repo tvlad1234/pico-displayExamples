@@ -10,7 +10,7 @@ int main()
 
     LCD_initDisplay();
     LCD_setRotation(1);
-    GFX_createFramebuf(); //not enough memory for framebuffer
+    GFX_createFramebuf();
     while (true)
     {
         GFX_clearScreen();
